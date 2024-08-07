@@ -1,0 +1,50 @@
+/* Add all your styles here */
+*{
+  margin:0;
+  padding:0;
+  color:white;
+  font-face:Poppines;
+}
+body{
+  text-align:center;
+  background-color:#112;
+}
+#display{
+  display:flex;
+  align-items:center;
+  justify-content:flex-start;
+}
+#box{
+  display:flex;
+  gap:2vw;
+  flex-direction:column;
+}
+h3{
+  color:gold;
+}
+#container{
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  gap:1vw;
+  width:40vw;
+  height:40vw;
+  margin:auto;
+  flex-wrap:wrap;
+}
+.btn{
+  height:12vw;
+  width:12vw;
+  background-color:salmon;
+  font-size:7vw;
+}
+.reset{
+  color:white;
+  background-color:crimson;
+  padding:2vw 3vw;
+  font-weight:bold;
+}
+button{
+  border:1px inset white;
+  border-radius:10px;
+}
