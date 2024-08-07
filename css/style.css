@@ -16,7 +16,9 @@ body{
 }
 #box{
   display:flex;
+  margin:3vw;
   gap:2vw;
+  max-width:50vw;
   flex-direction:column;
 }
 h3{
